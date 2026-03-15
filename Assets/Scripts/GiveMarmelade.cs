@@ -4,6 +4,7 @@ public class GiveMarmelade : MonoBehaviour
 {
 
     [SerializeField] private EconomyManager economyManager;
+    [SerializeField] private ParticleSystem particleEffect;
 
     public float marmeladePerClick;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -21,5 +22,8 @@ public class GiveMarmelade : MonoBehaviour
     public void Marmelade()
     {
         economyManager.AddMarmelade(marmeladePerClick);
+        particleEffect.Play();
     }
+
+
 }

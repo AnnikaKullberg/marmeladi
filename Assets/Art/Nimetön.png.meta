@@ -143,10 +143,10 @@ TextureImporter:
       name: "Nimet\xF6n_0"
       rect:
         serializedVersion: 2
-        x: 5
-        y: 102
-        width: 77
-        height: 69
+        x: 6
+        y: 103
+        width: 75
+        height: 67
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -165,10 +165,10 @@ TextureImporter:
       name: "Nimet\xF6n_1"
       rect:
         serializedVersion: 2
-        x: 99
-        y: 95
-        width: 96
-        height: 66
+        x: 100
+        y: 96
+        width: 94
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,10 +187,10 @@ TextureImporter:
       name: "Nimet\xF6n_2"
       rect:
         serializedVersion: 2
-        x: 218
-        y: 92
-        width: 50
-        height: 77
+        x: 219
+        y: 93
+        width: 48
+        height: 75
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -209,10 +209,10 @@ TextureImporter:
       name: "Nimet\xF6n_3"
       rect:
         serializedVersion: 2
-        x: 12
+        x: 13
         y: 41
-        width: 77
-        height: 51
+        width: 75
+        height: 50
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -231,10 +231,10 @@ TextureImporter:
       name: "Nimet\xF6n_4"
       rect:
         serializedVersion: 2
-        x: 7
-        y: 12
-        width: 43
-        height: 31
+        x: 14
+        y: 13
+        width: 28
+        height: 28
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -253,10 +253,10 @@ TextureImporter:
       name: "Nimet\xF6n_7"
       rect:
         serializedVersion: 2
-        x: 99
-        y: 3
-        width: 93
-        height: 83
+        x: 204
+        y: 23
+        width: 64
+        height: 56
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -275,10 +275,10 @@ TextureImporter:
       name: "Nimet\xF6n_8"
       rect:
         serializedVersion: 2
-        x: 203
-        y: 22
-        width: 66
-        height: 58
+        x: 44
+        y: 32
+        width: 5
+        height: 8
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -289,6 +289,72 @@ TextureImporter:
       bones: []
       spriteID: 9b579361bb3e0d820800000000000000
       internalID: 2941100949344187833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Nimet\xF6n_5"
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 46
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e81508d00ee8064b9ab83aafdccbe5b
+      internalID: -5135039412571470752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Nimet\xF6n_6"
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 4
+        width: 91
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bfc0c3a6ffdb934b88ff91f53471252
+      internalID: 7033953844728987077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Nimet\xF6n_9"
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 21
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7c4e873b14d6c54493338392328c0e0
+      internalID: -2611474971036565025
       vertices: []
       indices: 
       edges: []
@@ -305,7 +371,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       "Nimet\xF6n_0": 7132691596711350222
       "Nimet\xF6n_1": -8684328213084163817

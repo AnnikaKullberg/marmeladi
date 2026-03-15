@@ -20,6 +20,11 @@ public class EconomyManager : MonoBehaviour
     public void AddMarmelade(float amount)
     {
         currentMarmelade += amount;
+        if (currentMarmelade >= 1000f)
+        {
+            Application.Quit();
+            Debug.Log("kukkkk");
+        }
     }
 
     public void SubtractMarmelade(float amount)
