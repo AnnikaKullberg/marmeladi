@@ -12,9 +12,15 @@ public class EconomyManager : MonoBehaviour
     private void Start()
     {
         currentMarmelade = 0;
+        marmeladePerSecond = 0;
         StartCoroutine(MarmeladePerSecond());
 
         uiManager.UpdateMarmeladePerSecondText();
+    }
+
+    private void Update()
+    {
+        uiManager.UpdateMarmeladeText();
     }
 
     public void AddMarmelade(float amount)
@@ -44,7 +50,6 @@ public class EconomyManager : MonoBehaviour
         {
             yield return new WaitForSeconds(1f);
             AddMarmelade(marmeladePerSecond);
-            uiManager.UpdateMarmeladeText();
 
         }
     }

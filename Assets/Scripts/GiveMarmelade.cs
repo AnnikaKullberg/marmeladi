@@ -4,6 +4,7 @@ public class GiveMarmelade : MonoBehaviour
 {
 
     [SerializeField] private EconomyManager economyManager;
+    [SerializeField] private UIManager uiManager;
     [SerializeField] private ParticleSystem particleEffect;
 
     public float marmeladePerClick;
@@ -22,6 +23,7 @@ public class GiveMarmelade : MonoBehaviour
     public void Marmelade()
     {
         economyManager.AddMarmelade(marmeladePerClick);
+        uiManager.UpdateMarmeladeText();
         particleEffect.Play();
     }
 

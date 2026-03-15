@@ -15,4 +15,4 @@ MonoBehaviour:
   name: Marmelade Jar
   image: {fileID: 7132691596711350222, guid: 34f95a4f0ab15114298ec968cc3f93e3, type: 3}
   basePrice: 10
-  marmeladePerSecond: 0.2
+  marmeladePerSecond: 0.5
